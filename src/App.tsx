@@ -138,16 +138,16 @@ export default function App() {
   return (
     <div id="french-learning-app-root" className="min-h-screen bg-[#FBFBFA] flex flex-col font-sans">
       {/* Elegantly Crafted Premium Header */}
-      <header id="header-navbar" className="sticky top-0 z-50 bg-white border-b border-[#E5E5E5] px-6 py-4 flex items-center justify-between">
+      <header id="header-navbar" className="sticky top-0 z-50 bg-brand-green border-b border-brand-green-dark px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2.5">
-          <div className="bg-gradient-to-tr from-brand-green via-brand-yellow to-brand-red-core text-white p-2 rounded-xl flex items-center justify-center shadow-xs">
+          <div className="bg-white text-brand-green p-2 rounded-xl flex items-center justify-center shadow-xs animate-bounce-subtle">
             <Landmark size={20} strokeWidth={2.2} />
           </div>
           <div>
-            <h1 className="font-display font-bold text-gray-950 text-base md:text-lg tracking-tight leading-tight">
+            <h1 className="font-display font-bold text-white text-base md:text-lg tracking-tight leading-tight">
               Amzine Polyglotte
             </h1>
-            <p className="text-[10px] text-gray-400 font-bold uppercase tracking-widest mt-0.5">
+            <p className="text-[10px] text-green-100 font-bold uppercase tracking-widest mt-0.5">
               Niveau Intermédiaire B1 / B2
             </p>
           </div>
@@ -155,7 +155,7 @@ export default function App() {
 
         {/* Level badge and Email */}
         <div className="flex items-center gap-3">
-          <span className="hidden sm:inline-block text-[11px] font-semibold text-gray-500 bg-gray-100 px-3 py-1 rounded-lg">
+          <span className="hidden sm:inline-block text-[11px] font-semibold text-green-100 bg-brand-green-dark px-3 py-1 rounded-lg">
             amzine.ali@gmail.com
           </span>
           <div className="bg-brand-yellow-light border border-brand-yellow/30 text-brand-yellow-dark font-bold text-xs px-3 py-1 rounded-full flex items-center gap-1.5 shadow-3xs">
@@ -171,11 +171,11 @@ export default function App() {
         {/* Welcome message and Quote of the day B1/B2 style */}
         <div id="welcome-motivational-banner" className="bg-white border border-[#E5E5E5] rounded-3xl p-6 relative overflow-hidden flex flex-col md:flex-row md:items-center md:justify-between gap-4">
           <div className="space-y-1">
-            <h2 className="font-display font-bold text-gray-950 text-lg md:text-xl tracking-tight">
-              Bonjour, ravi de vous retrouver !
+            <h2 className="font-display font-extrabold text-gray-950 text-2xl md:text-3xl tracking-tight">
+              Amzine Polyglotte
             </h2>
             <p className="text-xs text-gray-500 leading-relaxed max-w-2xl">
-              "La langue française est une femme. Et cette femme est si belle, si fière, si modeste, si hardie, si touchante, si chaste, si noble, si familière, si folle..." — Anatole France. Continuez vos exercices d'aujourd'hui.
+              Votre espace interactif de perfectionnement et de formation en langue française pour le niveau intermédiaire (B1 / B2).
             </p>
           </div>
           <div className="bg-brand-green-light border border-brand-green/20 p-3 rounded-2xl shrink-0 self-start md:self-auto">
@@ -286,7 +286,7 @@ export default function App() {
       </main>
 
       {/* Aesthetic Parisian-Inspired Footer footer */}
-      <footer id="app-footer-bar" className="bg-white border-t border-[#E5E5E5] py-6 px-6 text-center text-xs text-gray-400 font-medium">
+      <footer id="app-footer-bar" className="bg-brand-green text-green-100 border-t border-brand-green-dark py-6 px-6 text-center text-xs font-medium">
         <p>
           Amzine Polyglotte © 2026 — Conçu spécifiquement pour la fluidité B1/B2. 
           Propulsé de manière éthique et sécurisée par Google Gemini 3.5 Flash.

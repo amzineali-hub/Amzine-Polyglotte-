@@ -1,5 +1,5 @@
 {
-  "name": "amzine",
+  "name": "Amzine Polyglotte",
   "description": "Une application moderne et élégante pour apprendre le français de niveau intermédiaire avec des dialogues IA interactifs, des textes littéraires et de la vie quotidienne, et des exercices de grammaire.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
